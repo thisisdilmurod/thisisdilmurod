@@ -4,9 +4,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=thisisdilmurod&label=Profile%20views&color=0e75b6&style=flat" alt="thisisdilmurod" /> </p>
 
-- 🔭 I’m currently working on [English Language App](https://shinnosukeuesaka-hitorigoto-main-9tlnc9.streamlit.app/)
+- 🔭 I’m currently working on [Talk to Myself](https://shinnosukeuesaka-hitorigoto-main-9tlnc9.streamlit.app/)
 
-- 🌱 I’m currently learning **Machine Learning**
+- 🌱 I’m self-studying **Machine Learning**
 
 - 👯 I’m looking to collaborate on [DoppiCode](https://www.instagram.com/doppicode/)
 
