@@ -10,7 +10,7 @@
 
 - 👯 I’m looking to collaborate on [DoppiCode](https://www.instagram.com/doppicode/)
 
-- 👨‍💻 All of my projects are available at [https://thisisdilmurod.github.io/](https://thisisdilmurod.github.io/)
+- 👨‍💻 All of my info is available at [https://thisisdilmurod.github.io/](https://thisisdilmurod.github.io/)
 
 - 💬 Ask me about **Python, JavaScript, Figma**
 
