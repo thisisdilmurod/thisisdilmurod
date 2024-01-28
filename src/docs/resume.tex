@@ -1,0 +1,179 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%-----------ABOUT-----------
+\begin{center}
+    \textbf{\Huge \scshape Dilmurod Abdusamadov} \\ \vspace{1pt}
+    \small 998-97-721-57-90 $|$ \href{mailto:dabdusamadov@students.wiut.uz}{\underline{dabdusamadov@students.wiut.uz}} $|$ 
+    \href{https://linkedin.com/in/thisisdilmurod}{\underline{linkedin.com/in/thisdilmurod}} $|$
+    \href{https://github.com/thisisdilmurod}{\underline{github.com/thisisdilmurod}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Westminster International University Tashkent}{Sept. 2022 -- May 2026}
+      {Bachelor of Science, Business Information Systems}{}
+      \resumeItemListStart
+        \resumeItem{Grade Point Average: 82/100}
+        \resumeItem{Relevant Coursework: Computer Science, Web Technology, Programming, Graphic Design, Statistics}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Academic Lyceum of Westminster International University Tashkent}{Sept. 2020 -- May 2022}
+      {Specialized Secondary Diploma, Applied Mathematics}{}
+      \resumeItemListStart
+        \resumeItem{Grade Point Average: 4.9/5}
+        \resumeItem{Relevant Coursework: Algebra, Calculus, Trigonometry, Geometry, Information Technology}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Alif Tech}{January 2024}
+      {Machine Learning Engineer Intern}{}
+      \resumeItemListStart
+        \resumeItem{Trained a Convolutional Neural Network to classify digits with 98.5\% accuracy using PyTorch }
+        \resumeItem{Studied architectures and techniques, such as LeNet, AlexNet, MaxPooling, and ReLU accordingly}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+              {\textbf{Assistant Bot for Telegram} $|$ \emph{Python, AsyncIO, AIOgram, Git}}{Jan. 2024 -- Present}
+              \resumeItemListStart
+                \resumeItem{Advanced the usage of API calls to services as Llama, YouTube/Instagram, OpenWeatherMap, etc}
+                \resumeItem{Scraped college website to access timetable data with automation tools like Selenium and BeautifulSoup}
+                \resumeItem{Created asynchronous JSON-based task managing middleware that supports custom keyboard markup}
+              \resumeItemListEnd
+        \resumeProjectHeading
+              {\textbf{Portfolio Website} $|$ \emph{HTML/CSS, EJS, jQuery, Node.js, Docker, Git}}{Oct. 2023 -- Dec. 2023}
+              \resumeItemListStart
+                \resumeItem{Designed responsive layout on Figma and backend logic on Excalidraw to optimize development}
+                \resumeItem{Simplified website both for client and server sides using Bootstrap as well as Express.js}
+                \resumeItem{Deployed on Cyclic and GitHub Pages within a containerized environment using Docker}
+              \resumeItemListEnd
+        \resumeProjectHeading
+              {\textbf{Web Cardiovascular Diagnosis} $|$ \emph{HTML/CSS, JavaScript, Python, Flask, Git}}{Aug. 2023 -- Oct. 2023}
+              \resumeItemListStart
+                \resumeItem{Utilized the Random Forest Classifier algorithm through hyperparameter tuning with Scikit-Learn}
+                \resumeItem{Worked with a dataset of 70,000+ entries using Pandas, Seaborn, and Matplotlib, achieving 71.2\% accuracy}
+                \resumeItem{Moved the Supervised Learning model to TCP/IP server, applying HTML/CSS, JavaScript, and Flask}
+              \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technologies}
+\resumeSubHeadingListStart
+    \resumeItemListStart
+        \resumeItem{\textbf{Languages}: C/C++, C\#, Python, JavaScript, HTML/CSS, R, Bash}
+        \resumeItem{\textbf{Frameworks}: PyTorch, Tensorflow, Scikit-Learn, Flask, Bootstrap, jQuery, Node.js, React.js}
+        \resumeItem{\textbf{Software}: SQL, SQLite, MongoDB, Cyclic, Heroku, Vercel, Postman}
+        \resumeItem{\textbf{Tools}: Git, Docker, VS Code, Visual Studio, PyCharm, JupyterLab, Google Suite, Adobe Suite}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------LANGUAUGES-----------
+\section{Awards}
+\resumeSubHeadingListStart
+    \resumeItemListStart
+        \resumeItem{Achieved the Bronze Honor at finals of International Youth Mathematics Challenge (2022)}
+        \resumeItem{Selected from 300+ at Uzbek Natural Language Processing (2022) and Urban Tech (2023) }
+        \resumeItem{Placed among top 10\% at Balatech International Programming Olympiad from UNDP (2022)}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------LANGUAUGES-----------
+\section{Languages}
+\resumeSubHeadingListStart
+    \resumeItemListStart
+        \resumeItem{\textbf{Uzbek} (Native), \textbf{Russian} (Advanced), \textbf{English} (Advanced)}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+\end{document}
