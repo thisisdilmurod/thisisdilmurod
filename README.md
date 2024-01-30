@@ -5,4 +5,4 @@ Interests:
 - Algorithms & Data Structures
 - Compilers & Interpreters
 
-More info [here](https://giant-undershirt-goat.cyclic.app/)
+Languages: C/C++, C#, Python, JavaScript, R
